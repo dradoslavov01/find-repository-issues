@@ -1,0 +1,15 @@
+/** @format */
+
+.container-comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+
+  .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: -5px;
+  }
+}

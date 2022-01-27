@@ -1,0 +1,22 @@
+/** @format */
+
+.container-issues {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+
+  .header {
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+    background-color: #006779;
+    margin: 0 10px;
+
+    p {
+      font-weight: 600;
+      font-size: 19px;
+      color: #ffff
+    }
+  }
+}

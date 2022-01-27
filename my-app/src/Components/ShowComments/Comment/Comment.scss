@@ -1,0 +1,47 @@
+/** @format */
+
+.container-comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgb(155, 155, 155);
+  border-radius: 10px;
+  max-width: 900px;
+  width: 100%;
+  margin: 30px auto;
+
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 103, 121);
+    border-radius: 10px 10px 0 0;
+    height: 50px;
+
+    &-info {
+      display: flex;
+      align-items: center;
+      &-author {
+        border: 1px solid rgb(243, 243, 243);
+        border-radius: 20px;
+        padding: 1px 7px;
+        font-size: 12px;
+        background-color: rgb(211, 209, 209);
+        margin: 0 7px;
+      }
+      &-author-name {
+        color: rgb(255, 255, 255);
+      }
+    }
+
+    &-commented {
+      color: rgb(255, 255, 255);
+      margin-right: 30px;
+    }
+  }
+
+  &-content {
+      padding: 3px 15px;
+     overflow: hidden;
+  }
+}
